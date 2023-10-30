@@ -1,0 +1,124 @@
+body {
+  background-image: url("images/reaper_boarder.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.review-link {
+  font-family: Georgia, serif;
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-white {
+  color: white;
+}
+.text-black {
+  color: black !important;
+}
+
+.text-base {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
+  font-size: 14pt;
+}
+
+.review-headline {
+  text-align: center;
+  color: white;
+  font-family: Times New Roman;
+  font-size: 50px;
+}
+.review-album-link {
+  text-align: center;
+  color: white;
+  font-family: Times New Roman;
+  font-weight: bold;
+  border: 3px solid white;
+  border-style: inset;
+  background-color: white;
+}
+
+p.double {
+  border-style: double;
+}
+
+.email-img {
+  width: 50%;
+  border: 3px solid #ffffff;
+  padding: 2px;
+}
+
+.centered-button {
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  border: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.container-width {
+  width: min(max(50%, min(600px, 75%)), 1024px);
+  margin: auto;
+}
+
+.container {
+  position: relative;
+  overflow: clip;
+  height: 200px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 3px solid white;
+  padding: 3px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  border: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.credit {
+  position: absolute;
+  bottom: 25px;
+  right: 15px;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+img {
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}

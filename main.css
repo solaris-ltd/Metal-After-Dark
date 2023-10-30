@@ -72,7 +72,7 @@ p.double {
 }
 
 .container-width {
-  width: max(50%, min(800px, 75%));
+  width: min(max(50%, min(600px, 75%)), 1024px);
   margin: auto;
 }
 
